@@ -49,6 +49,22 @@ num1=num2=num3=2+3
 // console.log(num3)
 let gameCounter=100 
 ++gameCounter
-console.log(gameCounter) 
+// console.log(gameCounter) 
 
 //postfix and infix js mdn 
+
+// ++++++++++++++++++++++++++++++++++++++++++++++ 
+// stack(Primitive), Heap(Non-Primitive) 
+let myName="Rahul"
+let anothername=myName 
+anothername="monu"
+console.log(myName) 
+console.log(anothername) 
+let user1={
+    email:"user@gamil.com",
+    upi:"user@ybl"
+}
+let user2=user1 
+user2.email="rahul@gmail.com"
+console.log(user1.email)
+console.log(user2.email)
